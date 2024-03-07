@@ -32,5 +32,7 @@ body {
     color: #ffff;
     font-size: 2em;
     margin: 0;
-    animation: gradient 8s ease infinite, textcolor 8s ease infinite;;
+    animation: gradient 10s ease infinite, textcolor 10s ease infinite;;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
   }
