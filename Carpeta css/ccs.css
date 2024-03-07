@@ -4,6 +4,8 @@ body {
     background: #1a0647;
 }
   
+/* -------------------- HEADER --------------------  */
+
 @keyframes gradient {
     0% {
       background-position: 0% 50%;
@@ -39,6 +41,8 @@ body {
   }
 
 
+/* -------------------- ARTICLE --------------------  */
+
 
   .content{
 
@@ -68,6 +72,29 @@ body {
   }   
 
 
+/* -------------------- BUTTON --------------------  */
+
+
+.article button {
+    display: block;
+    width: 200px; /* Ajusta el tamaño del botón según tus necesidades */
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: yellow;
+    color: black;
+    border: none;
+    border-radius: 50px;
+    font-size: 1em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 21px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .article button:hover {
+    background-color: #000000;
+    color:white
+
+  }
 
 
 
@@ -78,11 +105,7 @@ body {
 
 
 
-
-
-
-
-
+/* -------------------- BUTTERFLIES --------------------  */
 
 
 
@@ -195,7 +218,7 @@ body {
     transform-origin: right bottom;
     transform: rotate(-12deg);
     box-shadow: inset 3.5vmin 1.5vmin 0 0.5vmin, inset -0.5vmin 0 0 0.5vmin;
-    animation: wingTopFlap1 2s linear infinite;
+    animation: wingTopFlap1 0.3s linear infinite;
     overflow: hidden;
   }
   
@@ -221,7 +244,7 @@ body {
   .wing-top ~ .wing-top {
     left: 0;
     transform: scaleX(-1) rotate(-12deg);
-    animation: wingTopFlap2 2s linear infinite;
+    animation: wingTopFlap2 0.3s linear infinite;
   }
   
   .dots {
@@ -259,7 +282,7 @@ body {
     top: 59%;
     left: 27.5%;
     box-shadow: inset 1vmin -2vmin 0 0.5vmin;
-    animation: wingBottomFlap1 2s linear infinite;
+    animation: wingBottomFlap1 0.3s linear infinite;
     overflow: hidden;
   }
   
@@ -267,7 +290,7 @@ body {
     transform: scaleX(-1) rotate(55deg);
     left: auto;
     right: 55.5%;
-    animation: wingBottomFlap2 2s linear infinite;
+    animation: wingBottomFlap2 0.3s linear infinite;
   }
   
   .wing-bottom::before {
