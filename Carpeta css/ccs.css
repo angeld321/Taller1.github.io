@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding: 0;
+    background: #f0ede7;
 }
   
 @keyframes gradient {
@@ -36,3 +37,22 @@ body {
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
   }
+
+
+
+
+
+  .article {
+    text-align: center;
+  }
+  
+  .article img {
+    width: 100px; 
+  }
+  
+  .article button {
+    display: block;
+    width: 100px; 
+    margin: 20px auto;
+
+  }   
