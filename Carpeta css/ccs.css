@@ -1,7 +1,11 @@
 body {
     margin: 0;
     padding: 0;
-    background: #130533;
+    background: #12062e;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    
 }
   
 /* -------------------- HEADER --------------------  */
@@ -38,6 +42,7 @@ body {
     animation: gradient 10s ease infinite, textcolor 10s ease infinite;;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
+    font-style: italic;
   }
 
 
@@ -46,12 +51,13 @@ body {
 
   .content{
 
-    padding-top: 80px;
+    padding-top: 100px;
 
   }
 
   .article {
     text-align: center;
+    padding-bottom: 35px;
   }
   
   .article img {
@@ -68,6 +74,7 @@ body {
     display: block;
     width: 100px; 
     margin: 20px auto;
+    
 
   }   
 
@@ -83,11 +90,12 @@ body {
     background-color: yellow;
     color: black;
     border: none;
-    border-radius: 50px;
-    font-size: 1em;
+    border-radius: 50px;    
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 21px;
+    font-style: italic;
     transition: background-color 0.3s ease;
+    
   }
   
   .article button:hover {
@@ -95,6 +103,26 @@ body {
     color:white
 
   }
+
+  /* */
+
+
+.footer {
+    
+    margin: 0;
+    background-color: #fffb27;
+    color: black;
+    text-align: center;
+    padding: 20px;
+    font-family: Georgia, serif;
+    flex-shrink: 0;
+    flex: 1 0 auto;
+    height: 10px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    font-style: italic;
+
+ }
 
 
 
