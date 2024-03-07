@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+  
+@keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  @keyframes textcolor {
+    0% { color: black; }
+    50% { color: white; }
+    100% { color: black; }
+  }
+  
+
+
+  .header {
+    background: linear-gradient(270deg, #070707, #fffb27);
+    background-size: 200% 200%;
+    text-align: center;
+    padding: 20px;
+    font-family: Georgia, serif;
+    color: #ffff;
+    font-size: 2em;
+    margin: 0;
+    animation: gradient 8s ease infinite, textcolor 8s ease infinite;;
+  }
