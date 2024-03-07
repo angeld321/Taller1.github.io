@@ -112,17 +112,20 @@ body {
     margin: 0;
     background-color: #fffb27;
     color: black;
-    text-align: center;
-    padding: 20px;
-    font-family: Georgia, serif;
-    flex-shrink: 0;
-    flex: 1 0 auto;
+    text-align: center;    
+    font-family: Georgia, serif;    
     height: 10px;
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
     font-style: italic;
+    padding: 20px;   
+    position: fixed; /* Fija el footer en la parte inferior de la ventana */
+    bottom: 0;
+    width: 100%;
 
  }
+
+ 
 
 
 
